@@ -1,15 +1,11 @@
-import re
-
-words =[]
-
-with open("test_one.txt","r",encoding="utf8") as file:
+lines=[]
+counter = 0
+with open("wordList.txt","r") as file:
+    
     for line in file:
-        if line != "\n" or None:
-            word = re.findall('[A-Z]\w*..\B',line)[0]
-            word = word[:-2]
-            words.append(word)
+        counter= counter +1
+        lines.append(line[:-1])
 
-with open("wordList.txt","a") as file:
-    for word in words:
-        file.write("\n"+word)
-
+with open("wordList_1.txt","w") as file:
+    for line in lines:
+        file.write(line+"\n")
