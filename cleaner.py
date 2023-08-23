@@ -13,7 +13,7 @@ with open(loc, "r", encoding="utf8") as file: # utf8 for special characters
                 if i =="/": # sparate cases like "lustro / dias" to get just one and continue withouth adding the "/"
                     words.append(word.strip())
                     word=""
-                if i =="\t":
+                if i =="\t" or i =="–":
                     words.append(word.strip())
                     end = not end
                     break
