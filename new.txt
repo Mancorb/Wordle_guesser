@@ -1,43 +1,55 @@
-1. Pardo
-2. Lampiño
-3. Manco / Manca
-4. Tuerto / Tuerta
-5. Vergüenza Ajena 
-6. Morbo
-7. Empalagar
-8. Quincena
-9. Duende
-10. Aturdir
-11. Enmadrarse
-12. Concuñado / Concuñada
-13. Consuegro / Consuegra
-14. Resol
-15. Recogerse
-16. Estrenar
-17. Merendar
-18. Sobremesa
-19. Puente
-20. Antier
-21. Friolento / Friolenta
-22. Desvelado / Desvelada
-23. Te quiero
-24. Tutear
-25. Estadounidense
-26. Entrecejo
-27. Chapuza
-28. Dar un toque
-29. Golpista
-30. Mimoso / Mimosa
-31. Pavonearse
-32. Soler
-33. Tocayo / Tocaya
-34. Amigovio / Amigovia
-35. Madrugar
-36. Dominguero / Dominguera
-37. Picotear
-38. Gentilicio
-39. Arroba
-40. Botellón
-41. Sesear
-42. Manía
-43. Trámite
+Adiós	Masculine	aðjˈos	Goodbye
+Adorable		ˌaðoɾˈaβle	Adorable
+Alumbración	Feminine	ˌalumbɾaθjˈon	Enlightenment
+Amistad	Feminine	ˌamistˈad	Friendship
+Amor	Masculine	amˈoɾ	Love
+Bondad	Feminine	bondˈad	Kindness
+Belleza	Feminine	beʎˈeθa	Beauty
+Caleidoscopio	Masculine	kˌale͡ɪðoskˈopjo	Kaleidoscope
+Camino	Masculine	kamˈino	Path
+Compasión	Feminine	kˌompasjˈon	Compassion
+Coraje	Masculine	koɾˈaxe	Courage or anger
+Cuidar		kwiðˈaɾ	Caring
+Complicidad	Feminine	kˌompliθiðˈad	Complicity
+Desenlace	Masculine	dˌesenlˈaθe	Outcome
+Efímero		efˈimeɾo	Ephemeral
+Equilibrio	Masculine	ˌekilˈiβɾio	Balance
+Encanto	Masculine	enkˈanto	Charm
+Enternecer		ˌenteɾneθˈeɾ	Soften
+Epifanía	Feminine	ˌepifanˈia	Epiphany
+Esperanza	Feminine	ˌespeɾˈanθa	Hope
+Etéreo		etˈeɾeo	Ethereal
+Felicidad	Feminine	fˌeliθiðˈad	Happiness
+Gentileza	Feminine	xˌentilˈeθa	Gentleness
+Honestidad	Feminine	ˌonestiðˈad	Honesty
+Honor	Masculine	onˈoɾ	Honor
+Imprescindible		ˌimpɾesθindˈiβle	Indispensable
+Inexorable		ˌineksoɾˈaβle	Inexorable
+Infinito	Masculine	ˌimfinˈito	Infinite
+Libertad	Feminine	lˌiβeɾtˈad	Freedom
+Madre	Feminine	mˈaðɾe	Mother
+Melancolia	Feminine	mˌelankˈolja	Melancholy
+Memoria	Feminine	memˈoɾja	Memory
+Metáfora	Feminine	metˈafoɾa	Metaphor
+Nación	Feminine	naθjˈon	Nation
+Nacimiento	Masculine	nˌaθimjˈɛnto	Birth
+Palabra	Feminine	palˈaβɾa	Word
+Palomitas	Feminine	pˌalomˈitas	Popcorn
+Padre	Masculine	pˈaðɾe	Father
+Paz	Feminine	pˈaθ	Peace
+Perfectamente		peɾfˈektamˈente	Perfectly
+Reciprocidad	Feminine	ɾɾˌeθipɾˌoθiðˈad	Reciprocity
+Reanudar		ɾɾˌeanuðˈaɾ	Resume
+Renacer		ɾɾˌenaθˈeɾ	Reborn
+Resiliencia	Feminine	ɾɾˌesiljˈɛnθja	Resilience
+Respeto		ɾɾespˈeto	Respect
+Risas	Feminine	ɾɾˈisas	Laughter
+Sentir	
+sentˈiɾ	Feeling
+Silencio	Masculine	silˈɛnθjo	Silence
+Singularidades	Feminine	sˌiŋɡulˌaɾiðˈaðes	Singularities
+Soledad	Feminine	sˌoleðˈad	Solitude
+Sublime
+Ternura	Feminine	teɾnˈuɾa	Tenderness
+Tertulia	Feminine	teɾtˈulja	Talking-shop
+Vida	Feminine	bˈiða	Life

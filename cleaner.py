@@ -1,6 +1,7 @@
 import re
 
 words = []
+end = False
 loc="new.txt"
 
 with open(loc, "r", encoding="utf8") as file: # utf8 for special characters
@@ -12,9 +13,16 @@ with open(loc, "r", encoding="utf8") as file: # utf8 for special characters
                 if i =="/": # sparate cases like "lustro / dias" to get just one and continue withouth adding the "/"
                     words.append(word.strip())
                     word=""
+                if i =="\t":
+                    words.append(word.strip())
+                    end = not end
+                    break
                 else:
                     word=word+i
-            words.append(word.strip())
+            if not end:
+                words.append(word.strip())
+            else:
+                end = not end
 
 print("[+] Data extracted")
 
