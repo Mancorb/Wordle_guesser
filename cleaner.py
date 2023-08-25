@@ -26,7 +26,7 @@ with open(loc, "r", encoding="utf8") as file: # utf8 for special characters
 
 print("[+] Data extracted")
 
-with open("wordlist_esp.txt","a", encoding="utf8") as file:
+with open("wordlist.txt","a", encoding="utf8") as file:
     for i in words:
         file.write("\n"+i)
 print("[+] Process finnished")
