@@ -33,13 +33,40 @@ def buscar_palabras(lista_palabras, numero_letras, letras_contienen, letras_repe
     
     return palabras_encontradas
 
-# Ejemplo de uso
-lista_palabras = ["perro", "gato", "pájaro", "elefante", "caballo", "pez", "serpiente", "langosta"]
-numero_letras = 8
-letras_contienen = ["a", "l"]
-letras_repetidas = ("e", 3)
-letra_inicio = "e"
-letra_fin = "e"
+def obtener_palabras(lenguaje)-> list:
+    """Lee un archivo tipo txt y regresa una lista con todas las palabras leidas cuya longitud sea minimo de 1
 
-resultados = buscar_palabras(lista_palabras, numero_letras, letras_contienen, letras_repetidas, letra_inicio, letra_fin)
-print(resultados)
+    Args:
+        lenguaje (string): Especificacion de que archivo buscar (Español o Ingles)
+
+    Returns:
+        list: Lista de palabaras encontradas enel archivo.
+    """
+    wordList =[]
+    file_name = ""
+    
+    if lenguaje == "eng":
+        file_name = "wordlist.txt"
+        
+    elif lenguaje == "esp":
+        file_name = "wordlist_esp.txt"
+        
+    with open(file_name, "r") as file:
+        for line in file:
+            if len(line)>1 and line != " ":
+                wordList.appen(line)
+    
+    return wordList
+
+if __name__ == "__main__":
+    
+    # Ejemplo de uso
+    lista_palabras = obtener_palabras("esp")
+    numero_letras = 8
+    letras_contienen = ["a", "l"]
+    letras_repetidas = ("e", 3)
+    letra_inicio = "e"
+    letra_fin = "e"
+
+    resultados = buscar_palabras(lista_palabras, numero_letras, letras_contienen, letras_repetidas, letra_inicio, letra_fin)
+    print(resultados)
