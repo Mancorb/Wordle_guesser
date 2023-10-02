@@ -1,4 +1,5 @@
-def buscar_palabras(lista_palabras, numero_letras, letras_contienen, letras_repetidas, letra_inicio, letra_fin):
+def buscar_palabras(lista_palabras, numero_letras, letras_contienen, letras_repetidas, letra_inicio, letra_fin) -> list:
+    
     palabras_encontradas = []
     
     for palabra in lista_palabras:
@@ -43,8 +44,9 @@ def obtener_palabras(lenguaje)-> list:
         list: Lista de palabaras encontradas enel archivo.
     """
     wordList =[]
-    file_name = ""
+    file_name = " "
     
+    #Especificar el lenguaje de la wordlist
     if lenguaje == "eng":
         file_name = "wordlist.txt"
         
@@ -54,14 +56,14 @@ def obtener_palabras(lenguaje)-> list:
     with open(file_name, "r") as file:
         for line in file:
             if len(line)>1 and line != " ":
-                wordList.appen(line)
+                wordList.append(line)
     
     return wordList
 
 if __name__ == "__main__":
     
     # Ejemplo de uso
-    lista_palabras = obtener_palabras("esp")
+    lista_palabras = obtener_palabras("eng")
     numero_letras = 8
     letras_contienen = ["a", "l"]
     letras_repetidas = ("e", 3)
