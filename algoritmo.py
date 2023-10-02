@@ -1,5 +1,17 @@
 def buscar_palabras(lista_palabras, numero_letras, letras_contienen, letras_repetidas, letra_inicio, letra_fin) -> list:
-    
+    """Regresa un alista de letras que cumplan ciertas especificaciones
+
+    Args:
+        lista_palabras (list): lista original de palabras
+        numero_letras (int): numero de letras que debe de tener la palabra
+        letras_contienen (list): lista de letras que debe contener la palabra
+        letras_repetidas (tuple): tipo de letra que se puede repetir y numero de repeticiones validas
+        letra_inicio (string): letra con la que debe empezar la palabra
+        letra_fin (string): letra con la que debe terminar la palabra
+
+    Returns:
+        list: lista de palabras encontradas que cumplen con las especificaciones.
+    """
     palabras_encontradas = []
     
     for palabra in lista_palabras:
