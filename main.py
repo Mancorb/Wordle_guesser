@@ -1,4 +1,4 @@
-from Algoritmo import buscar_palabras
+from algoritmo import buscar_palabras
 
 if __name__ == "__main__":
     
